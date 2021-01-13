@@ -1,0 +1,19 @@
+Lógica
+
+Horário não coincidente - "livre":
+
+Data de início do evento A maior (ou igual) que o fim do evento B
+OU
+Data de final do evento A menor (ou igual) que o começo do evento B
+
+PHP:
+$livre = $inicio_pretendido >= $final_existente || $final_pretendido <= $inicio_existente
+
+Banco:
+SELECT * FROM tabela WHERE
+   ( data1_inicio >= data2_fim OR data1_fim <= data2_inicio )
+   AND id_data = 1;
+
+
+SELECT * FROM horarios where not(@data_inicio <= data_saida
+and @data_fim >= data_entrada)

@@ -1,0 +1,138 @@
+
+/*============ INICIO INDEX.PHP ==============*/
+
+body {
+    margin:0;
+    margin:t,r,b,l;
+    margin:45px 0px 30px 110px;
+    background-color:#F5F5F5;
+}
+.titulo0 {
+	width:100%;
+    color:black;
+    height:100px;
+    background-color:#F5F5F5;
+}
+
+.titulo {
+    flex:1;
+    display:flex;
+    justify-content:center;
+    line-height:100px;
+    font-size:50px;
+    font-family:Marker Felt, fantasy;
+}
+
+
+.secaoimg {
+    max-width:1140px;
+    margin-top:30px;
+    height:500px;
+	padding-top:60px;
+	padding-bottom:10px;
+    display:flex;
+    flex-wrap:wrap;
+	background-color:#E6E6FA;
+}
+
+.secaoimg2 {
+    max-width:1140px;
+    max-height:200px;
+	margin-left:150px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.imgarea {
+	justify-content:center;
+	align-items: center;
+	margin:10px; 
+    width:260px;
+    height:200px; 
+}
+
+.imgarea a{
+	width:260px;
+	height:180px;
+}
+
+.imgarea img {
+    width:inherit;
+    height:inherit;
+    border-radius:8px;
+}
+
+.imgarea:hover{
+	padding-top:20px;
+}
+
+.link a{
+	width:260px;
+	height:30px;
+	background-color:orange;
+	border-radius:80px;
+    font-family:Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+}
+
+.imgarea a{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	color: black;
+	text-decoration: none;
+	margin:auto;
+
+}
+
+.imgarea a:hover{
+	background-color:#F0F8FF;
+	border-radius:15px;
+}
+
+/*============ FIM INDEX.PHP ==============*/
+
+
+/*============ INICÍO CASDATRAR.PHP ==============*/
+
+.container h1{
+    padding-left:40%;
+}
+
+.voltar2{
+    padding-left:85%;
+}
+
+/*============ FIM CASDATRAR.PHP ==============*/
+
+
+/*============ INICÍO LISTAR.PHP ==============*/
+
+.background {
+    margin:0;
+    background-color:#E6E6FA; 
+    width:100%;
+}
+
+
+.dia {
+    justify-content:center;
+    align-items: center;
+    margin:10px; 
+    width:100%; 
+}
+
+.mes {
+    justify-content:center;
+    align-items: center;
+    margin:10px; 
+    width:100%; 
+}
+
+.apagar {
+    justify-content:center;
+    align-items: center;
+    margin:10px; 
+    width:100%; 
+}
+
+/*============ FIM LISTAR.PHP ==============*/
